@@ -1,0 +1,39 @@
+.form {
+
+    .form-control,
+    .custom-select {
+        border: none;
+        border-bottom: 2px solid rgba(gray, .5);
+        background-color: #fff;
+        box-shadow: none;
+
+        &:focus {
+            border-color: #80bdff;
+        }
+
+        &[readonly] {
+            border: none;
+        }
+    }
+
+    .form-icon {
+        padding: 0;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+    }
+
+    .price-input {
+        position: relative;
+
+        input {
+            padding-right: 40px;
+        }
+
+        .currency {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+        }
+    }
+}

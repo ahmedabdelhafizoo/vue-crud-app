@@ -1,0 +1,11 @@
+@import "./components/all";
+@import "./helpers/calsses";
+@import "./layout/all";
+
+// dishes
+.dish {
+    .dropdown-menu {
+        top: -10px !important;
+        left: -20px !important;
+    }
+}

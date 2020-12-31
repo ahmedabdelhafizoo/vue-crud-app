@@ -1,0 +1,15 @@
+//modals
+.modal-header,
+.modal-content {
+    border: none;
+}
+
+.modal-header {
+    .close {
+        outline: none;
+    }
+}
+
+.modal-title {
+    font-size: 16px;
+}
